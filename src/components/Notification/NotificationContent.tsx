@@ -8,9 +8,7 @@ export function NotificationContent({ text }: NotificationContentProps) {
       <p className="text-sm leading-relaxed text-zinc-900 dark:text-zinc-50">
         {text}
       </p>
-      <div className="text-xs text-zinc-600 dark:text-zinc-400">
-        <span>3min ago</span>
-      </div>
+      <span className="text-xs text-zinc-600 dark:text-zinc-400">3min ago</span>
     </div>
   );
 }

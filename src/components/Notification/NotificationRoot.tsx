@@ -6,7 +6,7 @@ interface NotificationRootProps {
 
 export function NotificationRoot({ children }: NotificationRootProps) {
   return (
-    <article className="flex items-start gap-6 bg-white px-8 py-4 dark:bg-zinc-900">
+    <article className="flex items-start gap-6 rounded bg-white p-4 dark:bg-zinc-900">
       {children}
     </article>
   );
