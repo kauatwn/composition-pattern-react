@@ -5,5 +5,5 @@ interface WidgetRootProps {
 }
 
 export function WidgetRoot({ children }: WidgetRootProps) {
-  return <div className="w-[448px] rounded overflow-hidden">{children}</div>;
+  return <div className="w-[448px] overflow-hidden rounded">{children}</div>;
 }
