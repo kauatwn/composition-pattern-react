@@ -5,5 +5,5 @@ interface NotificationIconProps {
 }
 
 export function NotificationIcon({ icon: Icon }: NotificationIconProps) {
-  return <Icon className="w-6 h-6 text-green-500 mt-3" />;
+  return <Icon className="mt-3 h-6 w-6 stroke-green-500" />;
 }

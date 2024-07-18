@@ -4,7 +4,7 @@ interface NotificationContentProps {
 
 export function NotificationContent({ text }: NotificationContentProps) {
   return (
-    <div className="flex-1 flex flex-col gap-2">
+    <div className="flex flex-1 flex-col gap-2">
       <p className="text-sm leading-relaxed text-zinc-900 dark:text-zinc-50">
         {text}
       </p>
